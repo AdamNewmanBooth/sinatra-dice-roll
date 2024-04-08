@@ -9,6 +9,22 @@ pp "hey!"
 
 get("/") do
   "Dice Roll"
+  url1 = "https://supreme-invention-v65p99q6ww7hpvg5-4567.app.github.dev/dice/2/6"
+  text1 = "2 - 6 sided dice"
+  
+  hyperlink1 = "<a href=\"#{url1}\">#{text1}</a>"
+  
+  puts hyperlink1
+
+
+  url2 = "https://supreme-invention-v65p99q6ww7hpvg5-4567.app.github.dev/dice/2/10"
+  text2 = "2 - 10 sided dice"
+  
+  hyperlink2 = "<a href=\"#{url2}\">#{text2}</a>"
+  
+  puts hyperlink2
+
+
 end
 
 get("/zebra") do
